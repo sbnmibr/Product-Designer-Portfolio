@@ -1,0 +1,194 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style: none !important;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  margin: 40px;
+}
+header .header {
+  background-color: black;
+  padding: 10px 30px 10px 10px;
+  border-radius: 40px;
+}
+header .header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header nav ul li a {
+  color: white;
+  font-size: 18px;
+}
+header .header nav ul .button {
+  padding: 20px 40px;
+  background-color: #fd853a;
+  border-radius: 50px;
+}
+header .header nav ul .button a {
+  font-weight: bold;
+}
+header .header nav ul .min {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+header .header nav ul .min img {
+  padding: 10px;
+  background-color: #fd853a;
+  border-radius: 50%;
+}
+header .header nav ul .min h2 {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#home .home-all .home-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#home .home-all .home-top .hello-button button {
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-size: 18px;
+  border: 1px solid;
+}
+#home .home-all .home-top .home-content h1 {
+  text-align: center;
+  font-size: 70px;
+  padding: 20px;
+  font-weight: bold;
+}
+#home .home-all .home-top .home-content h1 span {
+  color: #fd853a;
+}
+#home .home-all .home-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home .home-all .home-bottom .questos {
+  width: 15%;
+}
+#home .home-all .home-bottom .questos img {
+  width: 30px;
+}
+#home .home-all .home-bottom .questos p {
+  font-size: 20px;
+}
+#home .home-all .home-bottom .image {
+  background-image: url("../Images/Frame 57.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 300px;
+}
+#home .home-all .home-bottom .image .image-btns {
+  margin-top: 400px;
+  display: flex;
+  border: 1px solid white;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 40px;
+}
+#home .home-all .home-bottom .image .image-btns .portfolio-btn {
+  padding: 5px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  font-size: 20px;
+  background-color: #fd853a;
+}
+#home .home-all .home-bottom .image .image-btns .hire-btn {
+  padding: 5px 40px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  background-color: transparent;
+}
+#home .home-all .home-bottom .star {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 15%;
+}
+#home .home-all .home-bottom .star .fa-star {
+  color: #fd853a;
+  font-size: 25px;
+}
+#home .home-all .home-bottom .star .star-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+#home .home-all .home-bottom .star .star-info h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+#home .home-all .home-bottom .star .star-info p {
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */

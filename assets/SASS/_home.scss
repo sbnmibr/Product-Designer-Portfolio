@@ -1,0 +1,103 @@
+#home {
+  .home-all {
+    
+    .home-top {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .hello-button {
+        button {
+          padding: 10px 20px;
+          border-radius: 40px;
+          font-size: 18px;
+          border: 1px solid;
+        }
+      }
+      .home-content {
+        h1 {
+          text-align: center;
+          font-size: 70px;
+          padding: 20px;
+          font-weight: bold;
+          span {
+            color: #fd853a;
+          }
+        }
+      }
+    }
+    .home-bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .questos {
+        width: 15%;
+        img {
+          width: 30px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+      .image {
+        background-image: url("../Images/Frame\ 57.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding: 300px;
+        .image-btns {
+          margin-top: 400px;
+          display: flex;
+          border: 1px solid white;
+          backdrop-filter: blur(10px);
+          padding: 10px;
+          border-radius: 40px;
+          .portfolio-btn {
+            padding: 5px 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            border: none;
+            border-radius: 40px;
+            font-size: 20px;
+            background-color: #fd853a;
+          }
+          .hire-btn {
+            padding: 5px 40px;
+            border: none;
+            color: white;
+            font-size: 20px;
+            background-color: transparent;
+          }
+        }
+      }
+      .star {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 15%;
+
+        .fa-star {
+          color: #fd853a;
+          font-size: 25px;
+        }
+        .star-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-end;
+          h1 {
+            font-size: 40px;
+            font-weight: bold;
+          }
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

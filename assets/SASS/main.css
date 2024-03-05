@@ -119,13 +119,16 @@ header .header nav ul .min h2 {
 #home .home-all .home-top .home-content h1 span {
   color: #fd853a;
 }
+#home .home-all .home-top .home-content .img {
+  width: 30%;
+  transform: rotate(-150deg);
+}
 #home .home-all .home-bottom {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 #home .home-all .home-bottom .questos {
   width: 15%;
+  padding: 30px;
 }
 #home .home-all .home-bottom .questos img {
   width: 30px;
@@ -134,11 +137,18 @@ header .header nav ul .min h2 {
   font-size: 20px;
 }
 #home .home-all .home-bottom .image {
+  position: relative;
+  bottom: 130px;
+  left: -40px;
   background-image: url("../Images/Frame 57.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  padding: 300px;
+  width: 900px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home .home-all .home-bottom .image .image-btns {
   margin-top: 400px;
@@ -171,7 +181,7 @@ header .header nav ul .min h2 {
 #home .home-all .home-bottom .star {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding-top: 30px;
   align-items: flex-end;
   width: 15%;
 }
@@ -191,4 +201,281 @@ header .header nav ul .min h2 {
 }
 #home .home-all .home-bottom .star .star-info p {
   font-size: 20px;
+}
+
+#services {
+  background-image: url("../Images/Frame 65.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  padding: 100px;
+  border-radius: 40px;
+}
+#services .services .services-head {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+#services .services .services-head h1 {
+  font-size: 40px;
+  display: flex;
+  gap: 10px;
+}
+#services .services .services-head h1 span {
+  color: #fd853a;
+  font-weight: bold;
+}
+#services .services .services-head p {
+  padding: 70px;
+  font-size: 30px;
+}
+#services .services .services-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+#services .services .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+#services .services .btns .big-btn {
+  padding: 6px 18px;
+  border-radius: 40px;
+  background-color: #fd853a;
+}
+#services .services .btns .mini-btn {
+  padding: 7px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+
+#work {
+  margin-top: 100px;
+}
+#work .work {
+  color: #344054;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#work .work h1 {
+  display: flex;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+#work .work h1 span {
+  color: coral;
+}
+#work .work .work-herro {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#work .work .work-herro .left {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 100px;
+}
+#work .work .work-herro .left .info h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+#work .work .work-herro .left .info p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+#work .work .work-herro .right {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 40px;
+}
+#work .work .work-herro .right .info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+#work .work .work-herro .right .info h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+#work .work .work-herro .right .info p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#hire {
+  margin-top: 100px;
+  background-color: rgb(234, 245, 255);
+}
+#hire .hire {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hire .hire .hire-image {
+  width: 50%;
+}
+#hire .hire .hire-image img {
+  width: 100%;
+}
+#hire .hire .hire-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+#hire .hire .hire-text h1 {
+  display: flex;
+  gap: 10px;
+  color: #1d2939;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#hire .hire .hire-text h1 span {
+  color: coral;
+}
+#hire .hire .hire-text p {
+  font-size: 28px;
+  color: #667085;
+}
+#hire .hire .hire-text .prices {
+  display: flex;
+  gap: 40px;
+}
+#hire .hire .hire-text .prices .price h1 {
+  font-size: 30px;
+}
+#hire .hire .hire-text .prices .price p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+#hire .hire .hire-text button {
+  padding: 30px 40px;
+  width: 30%;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+#portfolio {
+  margin-top: 100px;
+}
+#portfolio .portfolio .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#portfolio .portfolio .head h1 {
+  color: #344054;
+  font-size: 60px;
+  max-width: 600px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#portfolio .portfolio .head h1 span {
+  color: coral;
+}
+#portfolio .portfolio .head button {
+  padding: 20px 40px;
+  border-radius: 40px;
+  color: white;
+  background-color: #fd853a;
+  border: none;
+  font-size: 20px;
+}
+#portfolio .portfolio .portfolio-cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#portfolio .portfolio .portfolio-cards .card {
+  display: flex;
+}
+#portfolio .portfolio .portfolio-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+#portfolio .portfolio .portfolio-btns .big-btn {
+  padding: 6px 18px;
+  border-radius: 40px;
+  background-color: #fd853a;
+}
+#portfolio .portfolio .portfolio-btns .mini-btn {
+  padding: 7px;
+  border-radius: 40px;
+  background-color: #e4f5ff;
+}
+#portfolio .portfolio .buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#portfolio .portfolio .buttons button {
+  padding: 20px 40px;
+  background-color: #ebf2ff;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 30px;
+}
+#portfolio .portfolio .lirante {
+  margin-top: 50px;
+}
+#portfolio .portfolio .lirante .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#portfolio .portfolio .lirante .title h1 {
+  color: #344054;
+  font-weight: bold;
+  font-size: 50px;
+}
+#portfolio .portfolio .lirante .title .arrow {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fd853a;
+  border-radius: 50%;
+}
+#portfolio .portfolio .lirante .title .arrow i {
+  transform: rotate(-40deg);
+  color: white;
+  font-size: 20px;
+}
+#portfolio .portfolio .lirante .text {
+  text-align: center;
+}
+#portfolio .portfolio .lirante .text p {
+  padding: 0px 180px;
+  font-size: 22px;
+  color: #344054;
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */

@@ -121,7 +121,7 @@ header .header nav ul .min h2 {
 }
 #home .home-all .home-top .home-content .img {
   width: 30%;
-  transform: rotate(-150deg);
+  transform: rotate(-30deg);
 }
 #home .home-all .home-bottom {
   display: flex;

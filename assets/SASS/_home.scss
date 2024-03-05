@@ -1,10 +1,12 @@
 #home {
   .home-all {
+    
     .home-top {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      
       .hello-button {
         button {
           padding: 10px 20px;
@@ -31,11 +33,10 @@
     }
     .home-bottom {
       display: flex;
-      // justify-content: center;
-      // align-items: center;
+      justify-content: center;
+      align-items: center;
       .questos {
         width: 15%;
-        padding: 30px;
         img {
           width: 30px;
         }
@@ -44,39 +45,34 @@
         }
       }
       .image {
-        position: relative;
-        bottom: 130px;
-        left: -40px;
         background-image: url("../Images/Frame\ 57.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        width: 900px;
-        height: 600px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding: 300px;
         .image-btns {
-          margin-top: 400px;
+          
+          margin-top: 300px;
           display: flex;
+          justify-content: center;
+          align-items: center;
           border: 1px solid white;
           backdrop-filter: blur(10px);
           padding: 10px;
+          column-gap: 30px;
           border-radius: 40px;
+          width: 300px;
           .portfolio-btn {
-            padding: 5px 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            color: white;
-            border: none;
+            padding: 5px 20px;
             border-radius: 40px;
+            border: none;
+            color: white;
             font-size: 20px;
             background-color: #fd853a;
           }
           .hire-btn {
-            padding: 5px 40px;
+            border-radius: 40px;
+            padding: 5px 20px;
             border: none;
             color: white;
             font-size: 20px;
@@ -87,10 +83,10 @@
       .star {
         display: flex;
         flex-direction: column;
-        padding-top: 30px;
-        // justify-content: center;
+        justify-content: center;
         align-items: flex-end;
         width: 15%;
+        padding-top: 30px;
 
         .fa-star {
           color: #fd853a;

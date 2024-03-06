@@ -121,14 +121,15 @@ header .header nav ul .min h2 {
 }
 #home .home-all .home-top .home-content .img {
   width: 30%;
-  transform: rotate(-30deg);
+  transform: rotate(-150deg);
 }
 #home .home-all .home-bottom {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home .home-all .home-bottom .questos {
   width: 15%;
-  padding: 30px;
 }
 #home .home-all .home-bottom .questos img {
   width: 30px;
@@ -137,42 +138,37 @@ header .header nav ul .min h2 {
   font-size: 20px;
 }
 #home .home-all .home-bottom .image {
-  position: relative;
-  bottom: 130px;
-  left: -40px;
   background-image: url("../Images/Frame 57.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  width: 900px;
-  height: 600px;
+  padding: 300px;
+}
+#home .home-all .home-bottom .image .image-btns {
+  margin-top: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#home .home-all .home-bottom .image .image-btns {
-  margin-top: 400px;
-  display: flex;
   border: 1px solid white;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   padding: 10px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
   border-radius: 40px;
+  width: 300px;
 }
 #home .home-all .home-bottom .image .image-btns .portfolio-btn {
-  padding: 5px 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  color: white;
-  border: none;
+  padding: 5px 20px;
   border-radius: 40px;
+  border: none;
+  color: white;
   font-size: 20px;
   background-color: #fd853a;
 }
 #home .home-all .home-bottom .image .image-btns .hire-btn {
-  padding: 5px 40px;
+  border-radius: 40px;
+  padding: 5px 20px;
   border: none;
   color: white;
   font-size: 20px;
@@ -181,9 +177,10 @@ header .header nav ul .min h2 {
 #home .home-all .home-bottom .star {
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
+  justify-content: center;
   align-items: flex-end;
   width: 15%;
+  padding-top: 30px;
 }
 #home .home-all .home-bottom .star .fa-star {
   color: #fd853a;
@@ -478,4 +475,178 @@ header .header nav ul .min h2 {
   font-size: 22px;
   color: #344054;
   margin-top: 20px;
+}
+
+#results {
+  background-image: url("../Images/Frame 77.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+  border-radius: 40px;
+  margin-top: 100px;
+}
+#results .results .results-text {
+  text-align: center;
+}
+#results .results .results-text .text-img {
+  position: relative;
+}
+#results .results .results-text .text-img h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#results .results .results-text .text-img h1 span {
+  color: #fd853a;
+}
+#results .results .results-text .text-img img {
+  position: absolute;
+  right: 350px;
+  top: -20px;
+}
+#results .results .results-text p {
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  padding: 0px 150px;
+}
+#results .results .results-cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+#results .results .results-cards .big-card {
+  -webkit-backdrop-filter: invert(20%);
+          backdrop-filter: invert(20%);
+  width: 60%;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+#results .results .results-cards .big-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#results .results .results-cards .big-card .card-top .human-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+#results .results .results-cards .big-card .card-top .human-info .info h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+#results .results .results-cards .big-card .price {
+  display: flex;
+  align-items: center;
+}
+#results .results .results-cards .big-card .price .fa-star {
+  color: #FD853A;
+  font-size: 30px;
+}
+#results .results .results-cards .big-card .price p {
+  color: #ffffff;
+  font-size: 30px;
+}
+#results .results .results-cards .big-card p {
+  color: white;
+  font-size: 24px;
+  padding: 10px 0px;
+}
+#results .results .results-cards .small-card {
+  width: 30%;
+}
+#results .results .results-cards .small-card img {
+  border-radius: 0px 20px 0px 20px;
+}
+
+#discuss {
+  margin-top: 100px;
+}
+#discuss .discuss h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #344054;
+  font-weight: bold;
+}
+#discuss .discuss h1 span {
+  color: #fd853a;
+}
+#discuss .discuss .input-button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 30px;
+}
+#discuss .discuss .input-button .one {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+#discuss .discuss .input-button .one .envelope {
+  padding: 20px;
+  border-radius: 50%;
+  background-color: orange;
+}
+#discuss .discuss .input-button .one .envelope i {
+  color: white;
+  font-size: 20px;
+}
+#discuss .discuss .input-button .one input {
+  border: none;
+  outline: navajowhite;
+}
+#discuss .discuss .input-button .one input::-moz-placeholder {
+  font-size: 20px;
+}
+#discuss .discuss .input-button .one input:-ms-input-placeholder {
+  font-size: 20px;
+}
+#discuss .discuss .input-button .one input::placeholder {
+  font-size: 20px;
+}
+#discuss .discuss .input-button button {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  background-color: #fd853a;
+}
+#discuss .discuss .ratings {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#discuss .discuss .ratings .discuss-ratings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#discuss .discuss .ratings .discuss-ratings h1 {
+  font-size: 20px;
+}
+
+.wireframe {
+  margin-top: 100px;
+  background-color: #FB6514;
+  width: 100%;
+}
+.wireframe img {
+  width: 100%;
+  border-radius: 20px;
 }/*# sourceMappingURL=main.css.map */

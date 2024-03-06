@@ -140,6 +140,7 @@ header.header-scroll {
 }
 #home .home-all .home-bottom .questos p {
   font-size: 20px;
+  color: #344054;
 }
 #home .home-all .home-bottom .image {
   position: relative;
@@ -201,6 +202,7 @@ header.header-scroll {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  margin-top: 20px;
 }
 #home .home-all .home-bottom .star .star-info h1 {
   font-size: 40px;
@@ -221,7 +223,9 @@ header.header-scroll {
 }
 #services .services .services-head {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 20px;
   color: white;
 }
 #services .services .services-head h1 {
@@ -234,14 +238,17 @@ header.header-scroll {
   font-weight: bold;
 }
 #services .services .services-head p {
-  padding: 70px;
-  font-size: 30px;
+  max-width: 700px;
+  font-size: 25px;
 }
 #services .services .services-cards {
   display: flex;
   justify-content: center;
   gap: 20px;
   align-items: center;
+}
+#services .services .services-cards .card {
+  background-color: transparent;
 }
 #services .services .btns {
   display: flex;

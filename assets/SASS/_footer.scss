@@ -1,0 +1,164 @@
+footer {
+  margin-top: 100px;
+  background-color: black;
+  border-radius: 20px 20px 0px 0px;
+  .footer {
+    padding: 30px 0px;
+    .footer-head {
+      padding: 100px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+      h1 {
+        font-size: 60px;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      button {
+        padding: 20px 40px;
+        background-color: #fd853a;
+        border: none;
+        outline: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 40px;
+        i {
+          transform: rotate(-40deg);
+        }
+      }
+      border-bottom: 1px solid rgb(101, 89, 234);
+    }
+    .footer-top{
+        margin-top: 40px;
+       padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .left{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            .min {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+      
+                img {
+                  padding: 10px;
+                  background-color: #fd853a;
+                  border-radius: 50%;
+                }
+                h2 {
+                  color: white;
+                  font-size: 25px;
+                  font-weight: bold;
+                  letter-spacing: 1px;
+                }
+              }
+              p{
+                color: white;
+                font-size: 22px;
+              }
+              .icons{
+                display: flex;
+                font-size: 18px;
+                gap: 10px;
+                i{
+                    color: white;
+                }
+              }
+        }
+        .right{
+            width: 50%;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: flex-start;
+            .nav{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 20px;
+                h1{
+                    color: #FD853A;
+                    font-size: 20px;
+                    font-weight: bold;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                nav{
+                    ul{
+                        display: flex;
+                        
+                        flex-direction: column;
+                        gap: 15px;
+                        li{
+                            a{
+                                font-size: 20px;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+                .input{
+                    position: relative;
+                    input{
+                        padding: 10px 50px;
+                        border-radius: 10px;
+                       
+                    }
+                    .send{
+                        position: absolute;
+                        top: 2px;
+                        right: 0px;
+                       
+                        i{
+                            color: #ffffff;
+                            padding: 10px;
+                            border-radius:0px  10px 10px 0px;
+                            background-color: #FD853A; 
+                         }
+                    }
+                }
+            }
+        }
+        
+        border-bottom: 1px solid rgb(117, 93, 196);
+    
+       
+    }
+    .footer-bottom{
+        margin-top: 40px;
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        p{
+            font-size: 20px;
+        }
+    }
+ 
+  }
+}
+.toTop{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    opacity: 0;
+    transition: all 0.5s;
+    a{
+        padding: 16px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border-radius: 20px 20px 0px 0px;
+    }
+    &.top{
+        opacity: 111;
+    }
+  }

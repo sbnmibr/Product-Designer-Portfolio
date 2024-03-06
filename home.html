@@ -12,6 +12,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!-- Css link  -->
     <link rel="stylesheet" href="./assets/SASS/main.css" />
     <title>Portfolio</title>
@@ -275,48 +282,119 @@
               lobortis.
             </p>
           </div>
-          <div class="results-cards">
-            <div class="small-card">
-              <img
-                src="./assets/Images/Screenshot 2024-03-06 135724.png"
-                alt=""
-              />
-            </div>
-
-            <div class="big-card">
-              <div class="card-top">
-                <div class="human-info">
-                  <img src="./assets/Images/Ellipse 21.png" alt="" />
-                  <div class="info">
-                    <h1>Jayesh Patil</h1>
-                    <p>CEO, Lirante</p>
+        </div>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active item">
+              <div class="big-card">
+                <div class="card-top">
+                  <div class="human-info">
+                    <img src="./assets/Images/Ellipse 21.png" alt="" />
+                    <div class="info">
+                      <h1>Jayesh Patil</h1>
+                      <p>CEO, Lirante</p>
+                    </div>
                   </div>
+                  <img src="./assets/Images/quote-down.png" alt="" />
                 </div>
-                <img src="./assets/Images/quote-down.png" alt="" />
+                <div class="price">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <p>5.0</p>
+                </div>
+                <p>
+                  consectetur adipiscing elit. Sed congue interdum ligula a
+                  dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Sed lobortis orci elementum egestas lobortis.Sed
+                  lobortis orci elementum egestas lobortis.Sed lobortis orci
+                  elementum egestas lobortis.
+                </p>
               </div>
-              <div class="price">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <p>5.0</p>
-              </div>
-              <p>
-                consectetur adipiscing elit. Sed congue interdum ligula a
-                dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Sed lobortis orci elementum egestas lobortis.Sed lobortis
-                orci elementum egestas lobortis.Sed lobortis orci elementum
-                egestas lobortis.
-              </p>
             </div>
-            <div class="small-card">
-              <img
-                src="./assets/Images/Screenshot 2024-03-06 135646.png"
-                alt=""
-              />
+            <div class="carousel-item item">
+              <div class="big-card">
+                <div class="card-top">
+                  <div class="human-info">
+                    <img src="./assets/Images/Ellipse 21.png" alt="" />
+                    <div class="info">
+                      <h1>Jayesh Patil</h1>
+                      <p>CEO, Lirante</p>
+                    </div>
+                  </div>
+                  <img src="./assets/Images/quote-down.png" alt="" />
+                </div>
+                <div class="price">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <p>5.0</p>
+                </div>
+                <p>
+                  consectetur adipiscing elit. Sed congue interdum ligula a
+                  dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Sed lobortis orci elementum egestas lobortis.Sed
+                  lobortis orci elementum egestas lobortis.Sed lobortis orci
+                  elementum egestas lobortis.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item">
+              <div class="big-card">
+                <div class="card-top">
+                  <div class="human-info">
+                    <img src="./assets/Images/Ellipse 21.png" alt="" />
+                    <div class="info">
+                      <h1>Jayesh Patil</h1>
+                      <p>CEO, Lirante</p>
+                    </div>
+                  </div>
+                  <img src="./assets/Images/quote-down.png" alt="" />
+                </div>
+                <div class="price">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <p>5.0</p>
+                </div>
+                <p>
+                  consectetur adipiscing elit. Sed congue interdum ligula a
+                  dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Sed lobortis orci elementum egestas lobortis.Sed
+                  lobortis orci elementum egestas lobortis.Sed lobortis orci
+                  elementum egestas lobortis.
+                </p>
+              </div>
             </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </section>
@@ -371,52 +449,155 @@
           <div class="post-cards">
             <div class="card">
               <img src="./assets/Images/Frame 59 (1).svg" alt="" />
-              <button>UI/ UX Design</button>
-              <div class="info">
-                <div class="name">
-                  <div class="empty"></div>
-                  <h1>Jayesh Patil</h1>
+              <div class="card-bottom">
+                <button>UI/ UX Design</button>
+                <div class="info">
+                  <div class="name">
+                    <div class="empty"></div>
+                    <h1>Jayesh Patil</h1>
+                  </div>
+                  <div class="history">
+                    <div class="empty"></div>
+                    <h1>10 Nov, 2023</h1>
+                  </div>
                 </div>
-                <div class="history">
-                  <div class="empty"></div>
-                  <h1>10 Nov, 2023</h1>
-                </div>
+                <p>Design Unraveled: Behind the Scenes of UI/UX Magic</p>
               </div>
-              <p>Design Unraveled: Behind the Scenes of UI/UX Magic</p>
             </div>
             <div class="card">
               <img src="./assets/Images/Frame 59 (2).svg" alt="" />
-             <button>App Design</button>
-              <div class="info">
-                <div class="name">
-                  <div class="empty"></div>
-                  <h1>Jayesh Patil</h1>
+              <div class="card-bottom">
+                <button>App Design</button>
+                <div class="info">
+                  <div class="name">
+                    <div class="empty"></div>
+                    <h1>Jayesh Patil</h1>
+                  </div>
+                  <div class="history">
+                    <div class="empty"></div>
+                    <h1>10 Nov, 2023</h1>
+                  </div>
                 </div>
-                <div class="history">
-                  <div class="empty"></div>
-                  <h1>10 Nov, 2023</h1>
-                </div>
+                <p>Cinetrade: Innovative way to invest in Digital Media</p>
               </div>
-              <p>Cinetrade: Innovative way to invest in Digital Media</p>
             </div>
             <div class="card">
               <img src="./assets/Images/Frame 59 (3).svg" alt="" />
-              <button>App Design</button>
-              <div class="info">
-                <div class="name">
-                  <div class="empty"></div>
-                  <h1>Jayesh Patil</h1>
+              <div class="card-bottom">
+                <button>App Design</button>
+                <div class="info">
+                  <div class="name">
+                    <div class="empty"></div>
+                    <h1>Jayesh Patil</h1>
+                  </div>
+                  <div class="history">
+                    <div class="empty"></div>
+                    <h1>10 Nov, 2023</h1>
+                  </div>
                 </div>
-                <div class="history">
-                  <div class="empty"></div>
-                  <h1>10 Nov, 2023</h1>
-                </div>
+                <p>Sugee: Loan Management System for Rural Sector.</p>
               </div>
-              <p>Sugee: Loan Management System for Rural Sector.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer-head">
+            <h1>Lets Connect there</h1>
+            <div class="arrow">
+              <button>Hire me <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="footer-top">
+            <div class="left">
+              <div class="min">
+                <img src="./assets/Images/Vector (1).png" alt="" />
+                <h2>JCREA</h2>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                congue interdum ligula a dignissim. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Sed lobortis orci elementum egestas
+                lobortis.
+              </p>
+              <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-camera"></i>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+            </div>
+            <div class="right">
+              <div class="nav">
+                <h1>Navigation</h1>
+                <nav>
+                  <ul>
+                    <li>
+                      <a href="#">Home</a>
+                    </li>
+                    <li>
+                      <a href="#">About Us</a>
+                    </li>
+                    <li>
+                      <a href="#">Service</a>
+                    </li>
+                    <li>
+                      <a href="#">Resume</a>
+                    </li>
+                    <li>
+                      <a href="#">Project</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="nav">
+                <h1>Contact</h1>
+                <nav>
+                  <ul>
+                    <li>
+                      <a href="#">+91 7738443636</a>
+                    </li>
+                    <li>
+                      <a href="#">Jaycrea36@gmail.com</a>
+                    </li>
+                    <li>
+                      <a href="#">Portfolio-jcrea.com</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="nav">
+                <h1>Get the latest information</h1>
+                <div class="input">
+                  <input type="text" placeholder="Email Adsrres" />
+
+                  <div class="send">
+                    <i class="fa-solid fa-paper-plane"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>Copyright© 2023 Jayesh. All Rights Reserved.</p>
+            <p>User Terms & Conditions | Privacy Policy</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="toTop">
+      <a href="#"><i class="fa-solid fa-angles-up"></i></a>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/JS/home.js"></script>
   </body>
 </html>
